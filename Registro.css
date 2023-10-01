@@ -1,0 +1,114 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.container-form{
+    display: flex;
+    background:linear-gradient(to right,#09127f,#00d4ff) ;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#container-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    overflow: auto;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color:#1f2029;
+    
+}
+#loginArea{
+    margin:0 10px 0 10px;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    width: 430px;
+}
+.p1 {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    padding-top: 30px;
+    margin-left: 10px;
+    font-size: 2.5rem;
+    color:white;
+}
+.form{
+    margin:40px 0 0 0;
+}
+.form label{
+    display: flex;
+    align-items: center;
+    margin:30px 25px 47px 25px;
+    background-color: #2b2e38;
+    padding:0 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    border-bottom: solid thin white;
+}
+.form label input{
+    width: 100%;
+    font-size: 16px;
+    color:white;
+    padding:18px;
+    background-color: #2b2e38;
+    outline:none;
+    border: none;
+}
+.user{
+    margin-top: 100px;
+}
+.password{
+    margin-top:40px;
+}
+.form label i{
+    color: #a7a7a7;
+}
+.form input[type="submit"]{
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    background-color: rgb(33, 138, 236);
+    border-radius: 30px;
+    border:none;
+    font-size: 16px;
+    cursor:pointer;
+    padding:10px 15px;
+    width: 270px;
+    margin-left: 19%;
+    margin-bottom: 20%;
+    height: 49px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+.form input[type="submit"]:hover{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(13, 90, 206);
+    border-radius: 30px;
+    border:none;
+    font-size: 16px;
+    cursor:pointer;
+    padding:10px 15px;
+    width: 270px;
+    margin-left: 19%;
+    height: 49px;
+    margin-bottom: 20%;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+h6{
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 70px;
+}
+.registro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #bb71e6;
+    margin-top: 50px;
+    text-align: center;
+}
